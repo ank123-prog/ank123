@@ -15,9 +15,9 @@ Simply saying, Neural Models cannot take strings as input for machine learning t
 #### One hot vector -
 The 'Positive' word is has numeric representation as [1,0] and 'Negative' as [0,1].
 #### Multi hot vector - 
-This is used for creating numeric representation of the reviews. This is done by first creating a dictionary of words (all the words present in the cleaned dataset). Now each review is assigned a numpy array(initialized with all values as 0) and for each word present in that review, the 0 value is replaced by 1 in that coressponding numpy array. <br />
-For eg - The dictionary has four words - ['love', 'dog', 'cat', 'ball'] <br />
-So, for a sentence - 'I love dog', the cleaned sentence will be- 'love dog' and the numpy array representing it will be [1, 1, 0, 0]
+This is used for creating numeric representation of the reviews. This is done by first creating a dictionary of words (all the words present in the cleaned dataset). Now each review is assigned a numpy array(initialized with all values as 0) and for each word present in that review, the 0 value is replaced by index in that coressponding numpy array. <br />
+For eg - The dictionary has four words - [1:'love', 2:'dog', 3:'cat', 4:'ball'] <br />
+So, for a sentence - 'I love dog', the cleaned sentence will be- 'love dog' and the numpy array representing it will be [1,2]
 
 ### Model -
 This project invovles a simple model which is linear regression model. The model has two hidden layers- <br />
