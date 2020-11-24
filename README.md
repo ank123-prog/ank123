@@ -5,7 +5,8 @@ This is a semster project based on the problem statement which was -
 
 ## APPROACH- 
 ### DataSet-
-The first and most important step is to find a relevant dataset which is already classified into Positve review or Negative Review. This data set then will be used for training model. 
+The first and most important step is to find a relevant dataset which is already classified into Positve review or Negative Review. This data set then will be used for training model. For this project the dataset was collocted from - <br />
+https://data.gov.uk/dataset/73740ffe-cecb-4cba-afb9-51ea996187a1/nhs-england-nhs-choices-hospitals-patient-comments-and-ratings <br />
 
 ### Data Cleaning - 
 This is step is used to refine the dataset which will be used for training model. In this step each and every review is formatted by removing unwanted voacbulary present in the review. Removing punctautions, pronounce, numericals and other words (which does not help in classifying the review as positive or negative) is the crucial step which is done by creating a function and passing the dataset in it. 
