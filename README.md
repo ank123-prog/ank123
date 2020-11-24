@@ -25,3 +25,9 @@ The first layer has TanH as activation function (It is a best for linear regress
 The second layer has sigmoid as activation function cause the output of the model should be binary classified.
 
 ## RESULT - 
+The model was trained successfully, and have a high accuracy. For testing the model I also provided a custom review and the model was able to classify it correctly.
+
+## Errors - 
+Reviews having mixed emotions cannot be accurately judged by the model. <br />
+For eg - <br />
+A sentence like - "I am covid positive" will be termed as positve but this is a sentence with negative sentiment. This error can be sorted by explicitly adding this sentnece to the learing data so that machine can learn the pattern and predict a better result.
