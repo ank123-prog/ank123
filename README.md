@@ -1,5 +1,5 @@
 # NLP Project-
-This is a semster project based on the problem statement which was - 
+This is a semster project based on the problem statement which is - 
 <h2> 'Sentiment Analysis in Healthcare using Machine Learning' </h2>The problem statement given is not directed to any specialized field in Healthcare. What this project focuses on is - Classifying the sentiment of reviews of patient into two possible categories - Positive or Negative.  
 
 
